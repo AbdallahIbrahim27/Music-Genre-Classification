@@ -1,0 +1,62 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Testing & type checkers
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TensorFlow / training
+logs/
+checkpoints/
+*.tflite
+
+# Datasets, archives, and generated project folders (large / reproducible)
+/Data/
+/images/
+/outputs/
+*.zip
+
+# Trained model weights (override with: git add -f path/to/model.pkl)
+*.h5
+*.keras
+*.joblib
+
+# Optional: uncomment if features.csv is generated and should not be tracked
+# features.csv
